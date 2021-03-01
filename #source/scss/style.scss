@@ -1,0 +1,92 @@
+//---import--
+
+@import "nullstyle.scss";
+
+//---/import--
+
+
+//---mixin--
+
+@mixin inter {
+  font-family: "Inter", sans-serif;
+}
+@mixin roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+//---/mixin--
+
+//---variables--
+
+$yellow-col: #ffcf26;
+$blue-col: #0052ff;
+
+//---/variables--
+
+
+
+html,
+body {
+  margin: 0 auto;
+  max-width: 1920px;  
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 100%;
+  font-size: 18px;
+  line-height: 1;
+  color: #020113;
+  background: #f2f2f2;  
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2"), url("./fonts/Inter-Regular.woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Black.woff2"), url("./fonts/Roboto-Black.woff");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+//-/------Header-------/
+
+  @import "header.scss";
+
+//-/------Intro-------/
+
+  @import "intro.scss";
+
+//-/------saas-------/
+
+  @import "saas.scss";
+
+//-/------progress-------/
+
+  @import "progress.scss";
+
+//-/------finished-prod-------/
+
+  @import "finished-prod.scss";
+
+//-/------services-------/
+
+  @import "services.scss";
+
+//-/------blog-------/
+
+  @import "blog.scss";
+
+//-/------helped-------/
+
+  @import "helped.scss";
