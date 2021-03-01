@@ -228,7 +228,7 @@ body {
   }
 }
 .intro__wrap {
-  background: url("/img/dots.png") -4.5% 76% no-repeat, url("/img/intro-img.png") 100% 62%/35% no-repeat;
+  background: url("../img/dots.png") -4.5% 76% no-repeat, url("../img/intro-img.png") 100% 62%/35% no-repeat;
 }
 
 .intro__block {
@@ -342,13 +342,13 @@ body {
 .saas {
   width: 100%;
   height: 1410px;
-  background: rgba(9, 57, 119, 0.9) url("/img/black-mamba.png");
+  background: rgba(9, 57, 119, 0.9) url("..../img/black-mamba.png");
 }
 
 .saas__wrapper {
   display: flex;
   height: 960px;
-  background: url("/img/big-dots.png") 50% 91% no-repeat, url("/img/dots.png") 125% 32% no-repeat;
+  background: url("..../img/big-dots.png") 50% 91% no-repeat, url("..../img/dots.png") 125% 32% no-repeat;
 }
 
 .saas__img {
@@ -476,7 +476,7 @@ body {
 .reviews__slide_rating .reviews__slide_star {
   height: 18px;
   width: 18px;
-  background: url("/svg-sprite/star.svg");
+  background: url("../svg-sprite/star.svg");
 }
 
 .reviews__slide_text {
@@ -508,22 +508,22 @@ body {
 }
 
 .reviews__slide_img1 {
-  background: #FFCF26 url("/img/reviews-1.png") 5px 3px/65px 65px no-repeat;
+  background: #FFCF26 url("../img/reviews-1.png") 5px 3px/65px 65px no-repeat;
   border-radius: 10px;
 }
 
 .reviews__slide_img2 {
-  background: #FFCF26 url("/img/reviews-2.png") 5px 3px/65px 65px no-repeat;
+  background: #FFCF26 url("../img/reviews-2.png") 5px 3px/65px 65px no-repeat;
   border-radius: 10px;
 }
 
 .reviews__slide_img3 {
-  background: #FFCF26 url("/img/reviews-3.png") 5px 3px/65px 65px no-repeat;
+  background: #FFCF26 url("../img/reviews-3.png") 5px 3px/65px 65px no-repeat;
   border-radius: 10px;
 }
 
 .reviews__slide_img4 {
-  background: #FFCF26 url("/img/reviews-4.png") 5px 3px/65px 65px no-repeat;
+  background: #FFCF26 url("../img/reviews-4.png") 5px 3px/65px 65px no-repeat;
   border-radius: 10px;
 }
 
@@ -558,7 +558,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: url("/svg-sprite/right-arrow.svg") 100%/50px 50px no-repeat;
+  background: url("../svg-sprite/right-arrow.svg") 100%/50px 50px no-repeat;
   box-shadow: 0px 0px 5px #ffcf26;
   transition: 0.2s linear;
   mix-blend-mode: normal;
@@ -577,7 +577,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: url("/svg-sprite/left-arrow.svg") 100%/50px 50px no-repeat;
+  background: url("../svg-sprite/left-arrow.svg") 100%/50px 50px no-repeat;
   box-shadow: 0px 0px 5px #ffcf26;
   transition: 0.2s linear;
   mix-blend-mode: normal;
@@ -593,7 +593,7 @@ body {
   margin: 0 auto;
   padding: 150px 5px 5px 5px;
   background-color: #EAEFF5;
-  background: url("/img/big-dots.png") 70% 97% no-repeat;
+  background: url("../img/big-dots.png") 70% 97% no-repeat;
 }
 
 .progress__counter-wrap {
@@ -807,7 +807,7 @@ body {
   padding: 50px;
   border: 1px rgba(5, 87, 255, 0.6) solid;
   border-radius: 50%;
-  background: rgba(5, 87, 255, 0.1) url("/svg-sprite/services_design.svg") 30px 28px no-repeat;
+  background: rgba(5, 87, 255, 0.1) url("../svg-sprite/services_design.svg") 30px 28px no-repeat;
   mix-blend-mode: normal;
 }
 
@@ -820,7 +820,7 @@ body {
   padding: 50px;
   border: 1px rgba(5, 87, 255, 0.6) solid;
   border-radius: 50%;
-  background: rgba(5, 87, 255, 0.1) url("/svg-sprite/services_sales-performance-up.svg") 30px 25px no-repeat;
+  background: rgba(5, 87, 255, 0.1) url("../svg-sprite/services_sales-performance-up.svg") 30px 25px no-repeat;
   mix-blend-mode: normal;
 }
 
@@ -833,7 +833,7 @@ body {
   padding: 50px;
   border: 1px rgba(5, 87, 255, 0.6) solid;
   border-radius: 50%;
-  background: rgba(5, 87, 255, 0.1) url("/svg-sprite/services_iphone.svg") 38px 28px no-repeat;
+  background: rgba(5, 87, 255, 0.1) url("../svg-sprite/services_iphone.svg") 38px 28px no-repeat;
   mix-blend-mode: normal;
 }
 
@@ -846,7 +846,7 @@ body {
   padding: 50px;
   border: 1px rgba(5, 87, 255, 0.6) solid;
   border-radius: 50%;
-  background: rgba(5, 87, 255, 0.1) url("/svg-sprite/services_settings-server.svg") 34px 32px no-repeat;
+  background: rgba(5, 87, 255, 0.1) url("../svg-sprite/services_settings-server.svg") 34px 32px no-repeat;
   mix-blend-mode: normal;
 }
 
@@ -1010,7 +1010,7 @@ body {
 .helped {
   width: 100%;
   min-height: 900px;
-  background: url("/img/helped -img.png") 0 0/100% auto no-repeat;
+  background: url("../img/helped -img.png") 0 0/100% auto no-repeat;
 }
 
 .helped__wrapper {
