@@ -342,13 +342,13 @@ body {
 .saas {
   width: 100%;
   height: 1410px;
-  background: rgba(9, 57, 119, 0.9) url("..../img/black-mamba.png");
+  background: rgba(9, 57, 119, 0.9) url("../img/black-mamba.png");
 }
 
 .saas__wrapper {
   display: flex;
   height: 960px;
-  background: url("..../img/big-dots.png") 50% 91% no-repeat, url("..../img/dots.png") 125% 32% no-repeat;
+  background: url("../img/big-dots.png") 50% 91% no-repeat, url("../img/dots.png") 125% 32% no-repeat;
 }
 
 .saas__img {
@@ -453,6 +453,8 @@ body {
 }
 
 .reviews__slider {
+  display: flex;
+  height: 500px;
   width: 62.5%;
 }
 
@@ -927,7 +929,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 130px 10px;
-  background: url("/img/big-dots.png") 100% 94% no-repeat;
+  background: url("../img/big-dots.png") 100% 94% no-repeat;
 }
 
 .blog__title {
@@ -1010,7 +1012,7 @@ body {
 .helped {
   width: 100%;
   min-height: 900px;
-  background: url("../img/helped -img.png") 0 0/100% auto no-repeat;
+  background: url("../img/helped-bg.png") 0 0/100% auto no-repeat;
 }
 
 .helped__wrapper {
