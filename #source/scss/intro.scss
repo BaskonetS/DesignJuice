@@ -84,7 +84,7 @@
       mix-blend-mode: normal;
       opacity: 0.9;
       margin-right: 40px;      
-      padding: 20px 20px;
+      padding: 15px 20px;
       border-radius: 5px;
       border:#ffffff 1px solid;
       transition: .3s linear;
@@ -93,7 +93,9 @@
       background: linear-gradient(to left, #eea849, #f46b45);
       
       &:hover {
-        background: #c2781f;                
+        color: #000;
+        background: $yellow-col;
+        transform: scale(1.05)                
       }      
     }
 

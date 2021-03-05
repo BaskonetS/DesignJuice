@@ -80,9 +80,9 @@
     border: 1.5px solid #FFFFFF;    
     border-radius: 5px;
     transition: .4s linear;
-    background: #000046; // /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #3a7bd5, #3a6073);  ///* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #3a7bd5, #3a6073); ///* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000046;
+    background: -webkit-linear-gradient(to left, #3a7bd5, #3a6073);
+    background: linear-gradient(to left, #3a7bd5, #3a6073);
     background-size: 400% 400%;
     animation: btn-anim 5s ease infinite;
 
