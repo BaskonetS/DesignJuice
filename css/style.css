@@ -1475,6 +1475,10 @@ body {
     margin-bottom: 30px;
   }
 
+  .intro {
+    margin-top: 50px;
+  }
+
   .intro__box1 .intro__btn {
     margin-bottom: 20px;
   }
