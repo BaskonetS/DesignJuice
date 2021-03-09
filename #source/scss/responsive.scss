@@ -140,10 +140,7 @@
   
 }
 
-@media (max-width: 1401px) {
-  .saas {
-    
-  }
+@media (max-width: 1401px) {  
   .saas__wrapper {
     flex-direction: column;
     margin-bottom: calc(10px + (70 - 10) * ((100vw - 320px) / (1920 - 320)));
@@ -209,6 +206,11 @@
   
 @media (max-width: 900px) {
   .header__block {    
+    height: 50px;
+
+    & .header__wrapper {
+      height: 50px;
+    }
 
     & body.lock{
       overflow: hidden;

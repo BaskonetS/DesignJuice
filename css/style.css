@@ -1391,6 +1391,12 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .header__block {
+    height: 50px;
+  }
+  .header__block .header__wrapper {
+    height: 50px;
+  }
   .header__block body.lock {
     overflow: hidden;
   }
