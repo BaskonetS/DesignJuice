@@ -54,8 +54,7 @@
   padding: 5px;
 }
 .footer__title {
-  @include roboto;
-  font-style: 400;
+  @include roboto;  
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
