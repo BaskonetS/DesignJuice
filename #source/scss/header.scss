@@ -15,8 +15,9 @@
   
   & .header__wrapper {
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: space-around;
+    flex-wrap: wrap;
     height: 80px;    
   }  
 
@@ -39,14 +40,23 @@
       color: $yellow-col;      
     }
   }
+
+  & .header-burger{
+    display: none;
+  }
   
-  //& .header__nav {}
+  & .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
   
   & .header__nav ul {
     display: flex;
   }
   & .header__nav ul {
-    li + li {
+    & li + li {
       margin-left: 44px;
     }    
   }
@@ -66,9 +76,7 @@
       border-bottom: $yellow-col 1px solid;
     }
   }
-  & .btn__call {
-    display: flex;
-    align-items: center;
+  & .btn__call {    
     @include inter;
     font-weight: 400;
     font-style: normal;

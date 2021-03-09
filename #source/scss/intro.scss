@@ -21,7 +21,7 @@
 }
 
 .intro__wrap {  
-  background: url("../img/dots.png") -4.5% 76% no-repeat, url("../img/intro-img.png") 100% 62% / 35% no-repeat;       
+  background: url("../img/dots.png") -4.5% 76% no-repeat, url("../img/intro-img.png") 100% 100% / 35% no-repeat;       
 }
 
 .intro__block {
@@ -39,11 +39,10 @@
   align-items: center;
   padding: 5px;
   width: 67%;
-  min-height: 465px;  
+  min-height: 465px;
+  margin-top: -40px;
 
-  & .intro__box1-wrap {    
-    margin-top: -40px;
-  }
+  //& .intro__box1-wrap {}
 
     & .intro__subtitle {
       @include inter;
@@ -110,15 +109,14 @@
 }
 
 .intro__box2 {    
-  width: 63%;
-  min-height: 160px;  
+  width: 63%;    
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
   position: absolute;  
-  bottom: -80px;  
+  bottom: -60px;  
   background: #ECE9E6;   
   transition: ease .4s;
-
+  
   &:hover {
     background: $yellow-col; 
   }
@@ -128,12 +126,17 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 160px;
+    padding: 40px;
+    
 
-    & .clients__link {
+    & .clients__link {      
       padding: 5px;
       border-radius: 10px;
       transition: .4s linear;
+
+      & .clients-img {
+        width: 100%;
+      }
     }
 
     & .clients__link:hover {

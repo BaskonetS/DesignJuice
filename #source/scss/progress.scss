@@ -7,6 +7,7 @@
 }
 .progress__counter-wrap {
   display: flex;
+  flex-wrap: wrap;
   width: 62.5%;
   margin-top: 40px;
   margin-bottom: 130px;
@@ -66,8 +67,8 @@
   width: 82%;  
 }
 .progress__info_block {  
-  width: 780px;
-  margin-right: 20px;
+  max-width: 780px;
+  margin-right: 20px;  
   padding: 5px;
 }
 .progress__info_title {
@@ -114,7 +115,7 @@
   }
 }
 .progress__info_img {
-  width: 750px;
+  max-width: 750px;
   & img {
     width: 100%;
   }

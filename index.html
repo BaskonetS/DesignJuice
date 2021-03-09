@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
 <header class="header">
   <div class="header__block">
     <div class="header__wrapper container">
@@ -21,22 +19,25 @@
           <span class="logo__text">DesignJuice</span>
         </a>        
       </div>
+      <div class="header-burger">
+        <span></span>
+      </div>
       <div class="header__menu">
         <nav class="header__nav">
           <ul>
-            <li><a href="#" class="nav__link">About</a></li>
-            <li><a href="#" class="nav__link">Portfolio</a></li>
-            <li><a href="#" class="nav__link">Blog</a></li>
-            <li><a href="#" class="nav__link">Services</a></li>
-            <li><a href="#" class="nav__link">Contact</a></li>
+            <li><a href="#" class="nav__link" data-scroll="#intro">Main</a></li>
+            <li><a href="#" class="nav__link" data-scroll="#saas">Saas</a></li>
+            <li><a href="#" class="nav__link" data-scroll="#blog">Blog</a></li>
+            <li><a href="#" class="nav__link" data-scroll="#services">Services</a></li>
+            <li><a href="#" class="nav__link" data-scroll="#contact">Contact</a></li>
           </ul>
         </nav>
+        <a href="#" class="btn__call">Get Free Call</a>
       </div>
-      <a href="#" class="btn__call">Get Free Call</a>
     </div>
   </div>
 </header>
-<div class="intro">  
+<div class="intro" id="intro">  
   <div class="intro__wrap">    
     <div class="intro__block">
       <div class="intro__box1">
@@ -81,7 +82,7 @@
     </div>
   </div>  
 </div>
-<div class="saas">
+<div class="saas" id="saas">
   <div class="saas__wrapper">
     <div class="saas__img">
       <img src="img/saas-img.png" alt="#">
@@ -183,7 +184,7 @@
     </div>
   </div>
 </div>
-<div class="progress">
+<div class="progress" id="progress">
   <div class="progress__counter-wrap container">
     <p class="progress__projects counter__text">
       <span class="counter_bold">237 projects</span> completed
@@ -235,7 +236,7 @@
     </div>
   </div>
 </div>
-<div class="services">
+<div class="services" id="services">
   <div class="container">
     <div class="services__wrap">
       <div class="services__description">
@@ -266,7 +267,7 @@
     </div>
   </div>
 </div>
-<div class="blog">
+<div class="blog" id="blog">
   <div class="blog__wrapper container">
     <h6 class="blog__title">Latest blog posts</h6>
     <div class="blog__wrap-post">
@@ -342,7 +343,7 @@
     </div>
   </div>
 </div>
-<footer class="footer">
+<footer class="footer" id="contact">
   <div class="footer__top container">
     <div class="footer__description">
       <div class="footer__description_logo">
@@ -402,5 +403,4 @@
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
-
 </html>
