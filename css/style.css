@@ -664,7 +664,7 @@ body {
 
 .progress__info-wrap {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   width: 82%;
 }
@@ -1201,133 +1201,138 @@ body {
 
 @media (max-width: 1920px) {
   .header__block .header__menu {
-    width: calc(660px + (235) * ((100vw - 901px) / (1920 - 901)));
+    width: calc(660px + (235) * (100vw - 901px) / 1019);
   }
   .header__block .logo__text {
-    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(15px + (20 - 15) * (100vw - 320px) / 1600);
   }
   .header__block .btn__call {
-    font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
-    padding-top: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
-    padding-bottom: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
-    padding-left: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
-    padding-right: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(15px + (18 - 15) * (100vw - 320px) / 1600);
+    padding-top: calc(10px + (15 - 10) * (100vw - 320px) / 1600);
+    padding-bottom: calc(10px + (15 - 10) * (100vw - 320px) / 1600);
+    padding-left: calc(20px + (30 - 20) * (100vw - 320px) / 1600);
+    padding-right: calc(20px + (30 - 20) * (100vw - 320px) / 1600);
   }
 
   .intro__block {
-    min-height: calc(725px + (870 - 725) * ((100vw - 320px) / (1920 - 320)));
+    min-height: calc(725px + (870 - 725) * (100vw - 320px) / 1600);
   }
 
   .intro__box1 {
-    width: calc(100% + (100 - 750) * ((100vw - 320px) / (1920 - 320)));
-    margin-top: calc(-230px + (-40 - -230) * ((100vw - 320px) / (1920 - 320)));
-    padding: calc(10px + (10 - 5) * ((100vw - 320px) / (1920 - 320)));
+    width: calc(100% + (100 - 750) * (100vw - 320px) / 1600);
+    margin-top: calc(-230px + (-40 - -230) * (100vw - 320px) / 1600);
+    padding: calc(10px + (10 - 5) * (100vw - 320px) / 1600);
   }
   .intro__box1 .intro__subtitle {
-    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(14px + (16 - 14) * (100vw - 320px) / 1600);
   }
   .intro__box1 .intro__title {
-    font-size: calc(44px + (64 - 44) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(50px + (75 - 50) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(44px + (64 - 44) * (100vw - 320px) / 1600);
+    line-height: calc(50px + (75 - 50) * (100vw - 320px) / 1600);
   }
   .intro__box1 .intro__btn {
-    font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
-    margin-right: calc(0px + (40 - 0) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(15px + (20 - 15) * (100vw - 320px) / 1600);
+    margin-right: calc(0px + (40 - 0) * (100vw - 320px) / 1600);
   }
   .intro__box1 .intro__text {
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(20px + (25 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(14px + (18 - 14) * (100vw - 320px) / 1600);
+    line-height: calc(20px + (25 - 20) * (100vw - 320px) / 1600);
   }
 
   .intro__box2 {
-    width: calc(100% + (100 - 805) * ((100vw - 320px) / (1920 - 320)));
+    width: calc(100% + (100 - 450) * (100vw - 320px) / 1600);
   }
   .intro__box2 .clients {
-    justify-content: center;
-    padding: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+    justify-content: space-evenly;
+    padding: calc(20px + (30 - 20) * (100vw - 320px) / 1600);
   }
   .intro__box2 .clients .clients__link .clients-img {
-    width: calc(100px + (120 - 100) * ((100vw - 320px) / (1920 - 320)));
+    width: calc(100px + (120 - 100) * (100vw - 320px) / 1600);
   }
   .intro__box2 .clients .clients__link + .clients__link {
-    margin-left: calc(15px + (70 - 15) * ((100vw - 320px) / (1920 - 320)));
+    margin-left: calc(-8px + (70 - -8) * (100vw - 320px) / 1600);
   }
 
   .saas__plus {
-    padding-top: calc(60px + (150 - 60) * ((100vw - 320px) / (1920 - 320)));
+    padding-top: calc(60px + (150 - 60) * (100vw - 320px) / 1600);
   }
 
   .saas__plus_title {
-    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(37px + (51 - 37) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(28px + (42 - 28) * (100vw - 320px) / 1600);
+    line-height: calc(37px + (51 - 37) * (100vw - 320px) / 1600);
   }
 
   .saas__plus_items {
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(14px + (18 - 14) * (100vw - 320px) / 1600);
   }
 
   .saas__plus_link {
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
-    padding-top: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
-    padding-bottom: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(14px + (18 - 14) * (100vw - 320px) / 1600);
+    padding-top: calc(10px + (15 - 10) * (100vw - 320px) / 1600);
+    padding-bottom: calc(10px + (15 - 10) * (100vw - 320px) / 1600);
   }
 
   .reviews__slide {
-    margin-left: calc(5px + (15 - 5) * ((100vw - 320px) / (1920 - 320)));
-    margin-right: calc(5px + (15 - 5) * ((100vw - 320px) / (1920 - 320)));
+    margin-left: calc(5px + (15 - 5) * (100vw - 320px) / 1600);
+    margin-right: calc(5px + (15 - 5) * (100vw - 320px) / 1600);
   }
 
   .reviews__title_box {
-    padding-right: calc(10px + (200 - 10) * ((100vw - 320px) / (1920 - 320)));
+    padding-right: calc(0px + (340 - 0) * (100vw - 767px) / 1153);
   }
 
   .reviews__title {
-    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(28px + (42 - 28) * (100vw - 320px) / 1600);
   }
 
   .progress__info_title {
-    font-size: calc(20px + (42 - 20) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(37px + (51 - 37) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(20px + (42 - 20) * (100vw - 320px) / 1600);
+    line-height: calc(37px + (51 - 37) * (100vw - 320px) / 1600);
   }
 
   .progress__info_text p {
-    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(16px + (18 - 16) * (100vw - 320px) / 1600);
   }
 
   .progress__info_btn {
-    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(16px + (18 - 16) * (100vw - 320px) / 1600);
   }
 
   .finished-prod {
-    min-height: calc(665px + (900 - 665) * ((100vw - 320px) / (1920 - 320)));
+    min-height: calc(665px + (900 - 665) * (100vw - 320px) / 1600);
   }
 
   .finished-prod__title {
-    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(44px + (51 - 44) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(32px + (42 - 32) * (100vw - 320px) / 1600);
+    line-height: calc(44px + (51 - 44) * (100vw - 320px) / 1600);
   }
 
   .finished-prod__text {
-    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(16px + (18 - 16) * (100vw - 320px) / 1600);
   }
 
   .services__title {
-    line-height: calc(44px + (51 - 44) * ((100vw - 320px) / (1920 - 320)));
+    line-height: calc(44px + (51 - 44) * (100vw - 320px) / 1600);
   }
 
   .helped__title {
-    font-size: calc(38px + (42 - 38) * ((100vw - 320px) / (1920 - 320)));
-    line-height: calc(44px + (51 - 44) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(38px + (42 - 38) * (100vw - 320px) / 1600);
+    line-height: calc(44px + (51 - 44) * (100vw - 320px) / 1600);
   }
 
   .helped__link {
-    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(14px + (20 - 14) * (100vw - 320px) / 1600);
+  }
+}
+@media (max-width: 1700px) {
+  .reviews__slider.slick-slider {
+    width: calc(100% + (100 - 1000) * (100vw - 320px) / 1600);
   }
 }
 @media (max-width: 1401px) {
   .saas__wrapper {
     flex-direction: column;
-    margin-bottom: calc(10px + (70 - 10) * ((100vw - 320px) / (1920 - 320)));
+    margin-bottom: calc(10px + (70 - 10) * (100vw - 320px) / 1600);
   }
 
   .saas__plus_wrap {
@@ -1483,12 +1488,8 @@ body {
     margin-bottom: 20px;
   }
 
-  .intro__box2 .clients .clients__link + .clients__link {
-    margin-top: 10px;
-  }
-
   .reviews__slider.slick-slider {
-    width: 80%;
+    width: 90%;
   }
 }
 @media (max-width: 767px) {
@@ -1539,11 +1540,11 @@ body {
   }
 
   .counter__text {
-    font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(16px + (19 - 16) * (100vw - 320px) / 1600);
   }
 
   .counter_bold {
-    font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(16px + (19 - 16) * (100vw - 320px) / 1600);
   }
 
   .blog__post:hover {
@@ -1573,7 +1574,7 @@ body {
 }
 @media (max-width: 445px) {
   .reviews__slider.slick-slider {
-    width: calc(320px + (380 - 320) * ((100vw - 320px) / (1920 - 320)));
+    width: calc(320px + (380 - 320) * (100vw - 320px) / 1600);
   }
 
   .footer__description {
