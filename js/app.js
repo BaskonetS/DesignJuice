@@ -7,8 +7,9 @@ $ (function() {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 10000,
-      arrows: true,     
+      arrows: true,      
       //fade:true,
+      //centerMode: true,
 
       responsive: [
         {
