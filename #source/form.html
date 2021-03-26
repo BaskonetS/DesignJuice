@@ -1,0 +1,63 @@
+
+<div class="wrapper__form" id="wrapper__form">
+  <a href="#header" class="form__area"></a>
+  <div class="form">    
+    <form action="#" id="form" class="form__body">
+      <h4 class="form__title">Sending data to mail</h4>
+      <a href="#header" class="form__close">X</a>
+      <div class="form__item">
+        <label for="forName" class="form__label">Name*</label>
+        <input id="forName" type="text" name="Name" class="form__input">
+      </div>
+      <div class="form__item">
+        <label for="forEmail" class="form__label">Email*</label>
+        <input id="formEmail" type="text" name="Email" class="form__input">
+      </div>
+      <div class="form__item">
+        <div class="form__title">Phone call or Consultation by mail</div>
+        <div class="options">
+          <div class="options__item">
+            <input id="Phone call" checked type="radio" value="Phone call" name="question" class="options__input">
+            <label for="Phone call" class="options__label"><span>Phone call</span></label>
+          </div>
+          <div class="options__item">
+            <input id="Consultation by mail" type="radio" value="Consultation by mail" name="question" class="options__input">
+            <label for="Consultation by mail" class="options__label"><span>Consultation by mail</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="form__item">
+        <div class="form__label">Services:</div>
+        <select name="Services" class="select">
+          <option value="7-10 days">Website design</option>
+          <option value="10-20 days">Ready website</option>
+          <option value="30-40 days">Ready business</option>
+        </select>
+      </div>
+      <div class="form__item">
+        <label for="formMessage" class="form__label">Message:</label>
+        <textarea name="Message" id="formMessage" class="form__input"></textarea>
+      </div>      
+      <div class="form__item">
+        <div class="form__label">Attach file:</div>
+        <div class="file">
+          <div class="file__item">
+            <input id="file__input"  accept=".jpg, .png, .gif" type="file" name="file" class="file__input">
+            <label for="file__input" class="file__button">Select</label>            
+          </div>          
+        </div>
+      </div>
+      <div class="form__item">
+        <div class="checkbox">
+          <input checked id="formAgreement" type="checkbox" name="agreement" class="checkbox__input">
+          <label for="formAgreement" class="checkbox__label">
+            I agree to view my data.
+          </label>
+        </div>
+      </div>
+      <div class="form__item form__btn">
+        <button type="submit" class="form__button">Send</button>
+      </div>
+    </form>    
+  </div>
+</div>

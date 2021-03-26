@@ -93,8 +93,12 @@ body {
 
   //-/------footer-------/
 
-  @import "footer.scss";
+  @import "footer.scss";  
+  
+  //-/------form-------/
+  
+  @import "form.scss";
 
- //-/------responsive-------/
+  //-/------responsive-------/
 
-@import "responsive.scss";
+  @import "responsive.scss";
