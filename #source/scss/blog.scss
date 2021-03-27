@@ -55,11 +55,20 @@
   overflow: auto;
   border-radius: 5px;
   transition: .4s linear;
+  box-shadow: 0px 3px 20px rgba(255, 255, 255, .7);
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);    
   }
 }
+
+.blog__anim1:hover {
+  box-shadow: -20px 20px 10px rgba(255, 255, 255, .5);
+}
+.blog__anim2:hover {
+  box-shadow: 20px 20px 10px rgba(255, 255, 255, .5);
+}
+
 .blog__img_box {
   max-width: 280px;
   height: 185px;  
@@ -90,8 +99,7 @@
     &:hover {
       transform: scale(1.05);
     }
-  }
-  
+  }  
 }
 
 .blog__period {

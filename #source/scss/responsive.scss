@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+@media (max-width: 1920px) {  
   .header__block {
     
     & .header__menu {
@@ -70,6 +70,10 @@
 
   .saas__plus {
     padding-top: calc(60px + (150 - 60) * (100vw - 320px) / 1600);
+  }
+
+  .saas__plus_wrap {
+    height: calc(500px + (600 - 500) * (100vw - 320px) / 1600);    
   }
 
   .saas__plus_title {
@@ -227,16 +231,16 @@
 
   
 @media (max-width: 900px) {
+  body.lock{
+    overflow: hidden;
+  } 
+
   .header__block {    
     height: 50px;
 
     & .header__wrapper {
       height: 50px;
-    }
-
-    & body.lock{
-      overflow: hidden;
-    }      
+    }    
     
     & .header__logo{
       flex: 0 0 40px;      
@@ -407,6 +411,10 @@
     &:hover {
       transform: none;
     }
+  }
+  .blog__anim1:hover,
+  .blog__anim2:hover {
+    box-shadow: none;
   }
 }
 

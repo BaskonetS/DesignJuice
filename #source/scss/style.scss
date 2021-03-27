@@ -36,7 +36,23 @@ body {
   font-size: 18px;
   line-height: 1;
   color: #020113;
-  background: #f2f2f2;  
+  background: #f2f2f2;
+  scrollbar-color: #0052ff #ffcf26;
+  scrollbar-width:  thin;  
+}
+
+::-webkit-scrollbar {
+  width: 10px;  
+  background-color: rgba(0, 82, 255, .5);  
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffcf26;
+  border-radius: 9em;
+  border: 2px rgba(0, 82, 255, .5) solid;
+  transition: 1s linear;  
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 207, 38, .7);  
 }
 
 @font-face {

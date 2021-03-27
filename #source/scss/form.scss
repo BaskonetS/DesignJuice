@@ -14,7 +14,7 @@
   transform: perspective(400px) translate(0px, -100%) rotateX(45deg);
   background: rgba(0, 0, 70, 0.8);
   background: -webkit-linear-gradient(to left, rgb(28, 181, 224), #000046);
-  background: linear-gradient(to left, rgba(28, 181, 224, 0.8), rgba(0, 0, 70, 0.8));  
+  background: linear-gradient(to left, rgba(28, 181, 224, 0.8), rgba(0, 0, 70, 0.8));   
 }
 
 .wrapper__form:target {
@@ -36,7 +36,8 @@
   margin: 0 auto;
   background: #214b84 url("../img/beige-paper.png");
   border-radius: 20px;
-  border: 1px #ffffff solid;  
+  border: 1px #ffffff solid;
+  box-shadow: 0 0 40px inset rgb(255 255 255 / 70%); 
 }
 .form__body {  
   width: 100%;  
@@ -47,6 +48,7 @@
     position: absolute;
     top: 30px;
     right: 40px;
+    padding: 5px;
     color: #ffffff;
   }
 }
