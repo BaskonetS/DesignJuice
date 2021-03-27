@@ -1613,6 +1613,14 @@ body {
   border-radius: 5px;
   border: 1px #ffffff solid;
   background-color: #214b84;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.form__input:focus {
+  -webkit-box-shadow: 0 0 15px #ffffff;
+          box-shadow: 0 0 15px #ffffff;
 }
 
 textarea.form__input {
