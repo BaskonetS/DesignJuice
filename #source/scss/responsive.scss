@@ -1,4 +1,4 @@
-@media (max-width: 1919px) {  
+@media (max-width: 1920px) {  
   .header__block {
     
     & .header__menu {
@@ -52,7 +52,7 @@
 
     & .clients {      
       justify-content: space-evenly;
-      padding: calc(20px + (30 - 20) * (100vw - 320px) / 1600);
+      padding: calc(20px + (35 - 20) * (100vw - 320px) / 1600);
 
       & .clients__link {        
   
