@@ -143,8 +143,8 @@
     width: calc(100% + (100 - 1420) * (100vw - 320px) / 1600);
   }
   .form__body {
-    padding-left: calc(10px + (80 - 10) * (100vw - 320px) / 1600);
-    padding-right: calc(10px + (80 - 10) * (100vw - 320px) / 1600);
+    padding-left: calc(10px + (50 - 10) * (100vw - 320px) / 1600);
+    padding-right: calc(10px + (50 - 10) * (100vw - 320px) / 1600);
     padding-top: calc(70px + (30 - 70) * (100vw - 320px) / 1600);
   }
   .form__title {

@@ -1557,7 +1557,7 @@ body {
 
 .form__body {
   width: 100%;
-  padding: 30px 80px 30px;
+  padding: 30px 50px 30px;
   position: relative;
 }
 .form__body .form__close {
@@ -1951,8 +1951,8 @@ textarea.form__input {
   }
 
   .form__body {
-    padding-left: calc(10px + (80 - 10) * (100vw - 320px) / 1600);
-    padding-right: calc(10px + (80 - 10) * (100vw - 320px) / 1600);
+    padding-left: calc(10px + (50 - 10) * (100vw - 320px) / 1600);
+    padding-right: calc(10px + (50 - 10) * (100vw - 320px) / 1600);
     padding-top: calc(70px + (30 - 70) * (100vw - 320px) / 1600);
   }
 
