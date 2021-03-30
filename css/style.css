@@ -1819,7 +1819,7 @@ textarea.form__input {
   text-align: center;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1919px) {
   .header__block .header__menu {
     width: calc(660px + (235) * (100vw - 901px) / 1019);
   }
