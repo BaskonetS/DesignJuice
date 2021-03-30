@@ -60,11 +60,6 @@
           width: calc(100px + (120 - 100) * (100vw - 320px) / 1600);
         }
       }
-
-      & .clients__link + .clients__link {        
-        margin-left: calc(-8px + (70 - -8) * (100vw - 320px) / 1600);
-      }
-
     }    
   }
 
@@ -353,17 +348,7 @@
     & .intro__box1-wrapper {
       justify-content: center;
     }
-  }
-
-  .intro__box2 {
-
-    & .clients {
-
-      & .clients__link {
-        margin: 5px 10px;
-      }
-    }
-  }
+  }  
 
   .reviews__title_box {
     width: 95%;

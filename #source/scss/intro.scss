@@ -125,11 +125,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 35px;
     
 
-    & .clients__link {      
+    & .clients__link {            
       padding: 5px;
       border-radius: 10px;
       transition: .4s linear;
@@ -142,11 +142,7 @@
     & .clients__link:hover {
       background: #ffffff;
       transform: scale(1.1);
-    }
-    
-    & .clients__link + .clients__link {
-      margin-left: 70px;
-    }
+    }  
   }
 }
 
