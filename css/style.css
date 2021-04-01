@@ -227,6 +227,10 @@ body {
   color: #ffcf26;
   border-bottom: #ffcf26 1px solid;
 }
+.header__block .nav__link:focus {
+  color: #ffcf26;
+  border-bottom: #ffcf26 1px solid;
+}
 .header__block .btn__call {
   font-family: "Inter", sans-serif;
   font-weight: 400;

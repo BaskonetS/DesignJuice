@@ -54,11 +54,9 @@
   
   & .header__nav ul {
     display: flex;
-  }
-  & .header__nav ul {
     & li + li {
       margin-left: 44px;
-    }    
+    }
   }
   & .nav__link {
     @include inter;
@@ -72,6 +70,10 @@
     padding-bottom: 10px;
 
     &:hover {     
+      color: $yellow-col;
+      border-bottom: $yellow-col 1px solid;
+    }
+    &:focus {
       color: $yellow-col;
       border-bottom: $yellow-col 1px solid;
     }
