@@ -1925,7 +1925,7 @@ textarea.form__input {
   }
 
   .finished-prod {
-    min-height: calc(665px + (900 - 665) * (100vw - 320px) / 1600);
+    min-height: calc(615px + (900 - 615) * (100vw - 320px) / 1600);
   }
 
   .finished-prod__title {
@@ -1935,6 +1935,10 @@ textarea.form__input {
 
   .finished-prod__text {
     font-size: calc(16px + (18 - 16) * (100vw - 320px) / 1600);
+  }
+
+  .services__wrap {
+    padding-top: calc(50px + (120 - 50) * (100vw - 320px) / 1600);
   }
 
   .services__title {
